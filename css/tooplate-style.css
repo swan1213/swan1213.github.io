@@ -50,7 +50,7 @@ p {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.5;
-  color: #d3d0d0;
+  color: #5e5e5e;
 }
 
 h1,
@@ -319,6 +319,7 @@ strong {
 .dark-mode h4,
 .dark-mode h5,
 .dark-mode h6,
+.dark-mode p,
 .dark-mode .color-mode {
   color: #ffffff;
 }
@@ -326,6 +327,14 @@ strong {
 .dark-mode .owl-carousel .owl-nav button.owl-prev,
 .dark-mode .owl-carousel button.owl-dot {
   color: #ffffff;
+}
+
+.dark-mode .navbar-toggler-icon {
+  background-color: #ffffff;
+}
+
+.dark-mode .navbar-collapse {
+  background: black;
 }
 
 .timeline-wrapper {
@@ -532,7 +541,7 @@ strong {
   }
 
   .navbar-collapse {
-    /* background: #ffffff; */
+    background: #ffffff;
     text-align: center;
     padding-bottom: 20px;
   }
